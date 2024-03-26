@@ -1,0 +1,228 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f1c40f;
+    
+}
+.top{
+    text-align: center;
+    font-weight: 20%;
+    border: transparent;
+    position: absolute;
+    top: 70px;
+    left: 1130px;
+}
+.S {
+    background: lightpink;
+    width: 1500px;
+    margin: 60px auto;
+    height: 800px;
+    padding: 20px;
+    box-shadow: 0 2px 20px gray;
+}
+.header {
+    position: absolute;
+    top: 200px;
+    left: 608px;
+    width: 1500px;
+    height: 0.1px;
+    padding: 35px 12%;
+    background: #9b59b6;
+    backdrop-filter: blur(10px);
+    display: flex;
+    z-index: 100;
+    word-spacing: 400px;
+    
+}
+.sale{
+    font-weight: 700;
+    font-size: 25px;
+    border: transparent;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.saleday{
+    font-weight: 700;
+    font-size: 25px;
+    border: transparent;
+    position: absolute;
+    top: 30px;
+    left: 1300px;
+}
+.saleday:hover{
+    color: white;
+}
+.navbar{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    justify-content: space-between;
+    font-family: Cursive;
+
+}
+.navbar h4{
+    width: 1000px;
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    word-spacing: 50px;
+    color: black;
+}
+.navbar h4,a:hover{
+    color: black;
+}
+.search input{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    position: absolute;
+    top: 290px;
+    left: 1800px;
+    border-color: white;
+}
+.search i{
+    position: absolute;
+    top: 300px;
+    left: 1810px;
+}
+.dlt i{
+    position: absolute;
+    top: 300px;
+    left: 2030px;
+    cursor: pointer;
+
+}
+.help{
+    color: black;
+    font-size: 15px;
+}
+.home{
+    
+
+}
+.home-content{
+    max-width: 800px;
+}
+
+.home-content p{
+    font-size: 22px;
+    position: absolute;
+    top: 900;
+    left: 650px;
+    
+}
+.choice{
+    border-radius: 2px;
+    position: absolute;
+    top: 740px;
+    left: 1600px;
+    }
+.image-1 img{
+    border-radius: 2px;
+    width: 400px;
+    position: absolute;
+    top: 590px;
+    left: 650px;
+}
+.image-1 i{
+    
+    position: absolute;
+    top: 600px;
+    left: 1020px;
+    color: red;
+    cursor: pointer;
+}
+.center-content{
+    align-items: center;
+}
+.image-2 img{
+    border-radius: 2px;
+    width: 400px;
+    position: absolute;
+    top: 590px;
+    left: 1100px;
+}
+.image-2 i{
+     position: absolute;
+    top: 600px;
+    left: 1470px;
+    color: red;
+    cursor: pointer;
+}
+.right-content{
+
+}
+.btn{
+    width: 190px;
+    padding: 15px 28px;
+    background: blue;
+    border-radius: 25px;
+    border: transparent;
+    font-style: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 930px;
+    left: 1600px;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+.add{
+    border: transparent;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 100%;
+    font-style: bold;
+}
+.day{
+    border: transparent;
+    position: absolute;
+    top: 550px;
+    left: 1600px;
+}
+.sday{
+    font-weight: 100;
+    color: red;
+    font-size: 27px;
+    font-style: bold;
+}
+.rn{
+    color: black;
+    font-size: 30px;
+}
+.runningshoe,.pr,.pars,.clr{
+    font-size: 22px;
+}
+.clr{
+    font-size: 22px;
+}
+.day a{
+    font-size: 25px;
+    position: fixed;
+    top: 700px;
+    left: 1950px;
+}
+.day a:hover{
+    color: black;
+}
+.shape{
+    border-radius: 2px;
+    position: absolute;
+    top: 850px;
+    left: 1950px;
+}
