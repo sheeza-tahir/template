@@ -33,7 +33,7 @@ body{
 .header {
     position: absolute;
     top: 200px;
-    left: 608px;
+    left: 508px;
     width: 1500px;
     height: 0.1px;
     padding: 35px 12%;
@@ -215,7 +215,7 @@ body{
     font-size: 25px;
     position: fixed;
     top: 700px;
-    left: 1950px;
+    left: 1900px;
 }
 .day a:hover{
     color: black;
@@ -224,5 +224,5 @@ body{
     border-radius: 2px;
     position: absolute;
     top: 850px;
-    left: 1950px;
+    left: 1900px;
 }
